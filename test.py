@@ -1,4 +1,4 @@
-import FinalLib as ni
+import testowa as ni
 import numpy as np
 
 
