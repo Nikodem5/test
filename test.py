@@ -1,4 +1,4 @@
-import testowa as ni
+import LinearRegression as lr
 import numpy as np
 
 
@@ -14,6 +14,6 @@ y_train = np.array([221900, 538000, 180000, 604000, 510000])
 
 m, n = X_train.shape
 
-model = ni.LinearRegression(np.random.rand(n), 100)
+model = lr.LinearRegression(np.random.rand(n), 100)
 model.fit(X_train, y_train, alpha=0.0000001, iters=100)
 print(model.predict(X_train[1]))
